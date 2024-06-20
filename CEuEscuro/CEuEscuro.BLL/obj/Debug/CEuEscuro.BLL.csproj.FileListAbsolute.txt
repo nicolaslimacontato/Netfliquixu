@@ -1,0 +1,22 @@
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.BLL.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.BLL.pdb
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DTO.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DAL.pdb
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DTO.pdb
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.csproj.AssemblyReference.cache
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscur.BE36C239.Up2Date
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.BLL.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.BLL.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DTO.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DAL.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\bin\Debug\CEuEscuro.DTO.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.csproj.AssemblyReference.cache
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscur.BE36C239.Up2Date
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.BLL\obj\Debug\CEuEscuro.BLL.pdb

@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$primary: #db0000;
+$secondary: #2b2929;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #17a2b8;
+$light: #ffffff;
+$dark: #0c0b0b;
+$colorHover: #881414;
+
+$fontsizeh1: 6rem;
+$fontsizeh2: 4rem;
+$fontsizeh3: 3rem;
+$fontsizeh4: 2rem;
+$fontsizeh5: 1.5rem;
+$fontsizeh6: 1.25rem;
+$title: 3rem;
+
+$btn-border-radius: 7px;
+$btn-padding-y: .3rem;
+$btn-padding-x: 1rem;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// 8. Add additional custom code here
+/*#region Global*/
+.navbar-custom {
+    z-index: 1000; // Assegura que o navbar fique acima dos outros elementos
+}
+
+.btn-primary {
+    border: 2px solid $primary;
+    background-color: $primary;
+    font-weight: bold;
+    transition: .5s;
+    color: $light;
+}
+
+.btn-primary:hover {
+    background-color: $colorHover;
+    border: 2px solid $colorHover;
+    transition: .5s;
+}
+
+span {
+    color: $primary;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+input,
+textarea,
+select {
+    overflow: hidden !important; // Ensure no ugly overflow
+}
+
+// Optionally, you can also remove the box-shadow and add more styling
+input,
+textarea,
+select {
+    overflow: hidden !important;
+    box-shadow: none !important;
+    border-radius: 0.25rem; // Keep it consistent with Bootstrap's border radius
+}
+
+// You can also customize specific input types if needed
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    overflow: hidden !important;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border: 2px solid rgba(101,104,108,255);
+}
+
+
+
+/*#endregion*/
+
+/*#region NavBar*/
+
+.navbar a img {
+    width: 100px;
+}
+
+.fonte-titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: $title;
+    color: $primary;
+    text-transform: uppercase;
+    transform: scaleX(1.1);
+    /* Ajuste o valor conforme necessário */
+    transition: .5s;
+
+    &:hover {
+        transform: scale(1.2) scaleX(1.1);
+        /* Mantém o efeito de curva ao escalar */
+        color: $primary;
+        transition: .5s;
+    }
+}
+
+/*#endregion*/
+
+/*#region Background and Center Content*/
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+}
+
+.background-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    background-image: url('../imgflix/bgtop.jpg'); // Adicione o caminho da sua imagem
+    background-size: cover;
+    background-position: center;
+    opacity: .3; // Ajuste a opacidade conforme necessário
+    z-index: -1; // Mantém o conteúdo acima da imagem de fundo
+}
+
+.divhs {
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+.container-emailHome {
+    height: 10%;
+    width: 30%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    margin-bottom: 0.5rem;
+    /* Add some space between the input and the feedback message */
+    background-color: rgba(17, 140, 240, 0.13);
+}
+
+.form-container input:focus {
+    margin-bottom: 0.5rem;
+    /* Add some space between the input and the feedback message */
+    background-color: rgba(17, 140, 240, 0.13);
+}
+
+.form-container .invalid-feedback {
+    margin-bottom: 1rem;
+    /* Add some space between the feedback message and the button */
+}
+
+.btn-Vml {
+    height: 89%;
+
+}
+
+
+/*#endregion*/
+
+/*#region Login*/
+main 
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.mainbackground {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainbackground::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgflix/bgtop.jpg'); // Adicione o caminho da sua imagem
+    background-size: cover;
+    background-position: center;
+    opacity: .4; // Ajuste a opacidade conforme necessário
+    z-index: -1; // Mantém o conteúdo acima da imagem de fundo
+}
+
+#login .card {
+    background-color: rgb(0, 0, 0, 0.44); // Adjust the last value to set the opacity level
+    border-radius: 20px;
+}
+
+#login .inputs {
+    margin-bottom: 0.5rem;
+    /* Add some space between the input and the feedback message */
+    background-color: rgba(17, 140, 240, 0.13);
+    color: white;
+}
+
+#login .inputs:focus {
+    margin-bottom: 0.5rem;
+    /* Add some space between the input and the feedback message */
+    background-color: rgba(17, 140, 240, 0.13);
+}
+
+.inputs:-webkit-autofill,
+.inputs:-webkit-autofill:hover,
+.inputs:-webkit-autofill:focus,
+.inputs:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgb(51, 143, 219, 0.12) inset !important; // Mesma cor do fundo do card
+    -webkit-text-fill-color: white !important; // Cor do texto branco
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/*#endregion*/
+
+/*#region DefaultAdm*/
+.navbar-dark
+{
+    background-color:$dark;
+}
+
+.nav-link {
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte */
+    color: #fff; /* Cor do texto dos links */
+}
+
+.navbar-1link{
+    margin-right:1em;
+}
+
+.nav-link:hover {
+    color: #aaa; /* Cor do texto ao passar o mouse */
+}
+
+.navbar-logo {
+    width: 100px; /* Ajusta a largura do logo conforme necessário */
+    height: auto;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Define o hover para a imagem do logo */
+.navbar-logo:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente a imagem no hover */
+}
+
+/*#endregion*/
+
+/*#region ManagerUser*/
+.card {
+    background-color: rgb(0, 0, 0, 0.44); // Adjust the last value to set the opacity level
+    border-radius: 20px;
+}
+
+#FormularioUserManager .form-control {
+    background-color: rgba(17, 140, 240, 0.13);
+    color: white;
+}
+#FormularioUserManager .form-control::placeholder {
+    color: white;
+    opacity: .7; /* Garantir que o placeholder não esteja translúcido */
+}
+/*#endregion*/
+
+/*#region ManagerFilm*/
+#FormularioManagerFilm .form-control {
+    background-color: rgba(17, 140, 240, 0.13);
+    color: white;
+}
+
+#FormularioManagerFilm .form-control::placeholder {
+    color: white;
+    opacity: .7; /* Garantir que o placeholder não esteja translúcido */
+}
+input[type="file"] {
+    color: #ffffff; /* Muda a cor do texto para branco */
+    background-color: $dark; /* Muda a cor de fundo para cinza escuro */
+    border: 1px solid #ffffff; /* Muda a cor da borda para branco */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+option {
+    background-color: $dark; /* Fundo das opções */
+    color: #fff; /* Cor do texto das opções */
+}
+
+.table-custom {
+    background-color: $dark; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+}
+
+.table-custom th {
+    background-color: $primary; /* Cabeçalho vermelho */
+    color: #ffffff; /* Texto branco no cabeçalho */
+}
+
+.table-custom td {
+    background-color: $dark; /* Fundo preto */
+    color: #ffffff; /* Texto branco nas células */
+    padding:2em 0;
+    & input {
+        background-color: $primary;
+        color: white;
+
+        &:hover {
+            background-color: $colorHover;
+            border: 2px solid $colorHover;
+            transition: .5s;
+        }
+    }
+}
+
+.table-custom td, .table-custom th {
+    border: 1px solid #444444; /* Define a cor da borda */
+}
+
+
+/*#endregion*/

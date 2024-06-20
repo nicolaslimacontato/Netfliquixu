@@ -1,0 +1,18 @@
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DAL.pdb
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DTO.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DTO.pdb
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.csproj.AssemblyReference.cache
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscur.9CDF85EF.Up2Date
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DAL.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DTO.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\bin\Debug\CEuEscuro.DTO.pdb
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.csproj.AssemblyReference.cache
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscur.9CDF85EF.Up2Date
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.dll
+C:\Users\nicolas.lsilva3\source\repos\Ultimo CEuEscuro\CEuEscuro\CEuEscuro.DAL\obj\Debug\CEuEscuro.DAL.pdb
